@@ -106,7 +106,7 @@ public class Arqueiro extends Personagem {
         // Mana : 100.
     }
    
-    
+   //eae 
     
     @Override
     public void atacar() {

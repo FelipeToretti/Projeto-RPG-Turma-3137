@@ -94,7 +94,7 @@ public class Druida extends Personagem {
         //Efeito EdPedra : Stuna o inimigo em 1/2/4 turnos.
     }
     @Override
-    public void atacar() {
+    public void atacar(int Dano) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

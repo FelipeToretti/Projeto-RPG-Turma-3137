@@ -13,8 +13,6 @@ import br.com.satc.personagens.Personagem;
  */
 public class Berserker extends Personagem {
     
-    
-
     @Override
     public void setVelocidadeMovimento(int velocidadeMovimento) {
         super.setVelocidadeMovimento(velocidadeMovimento+300);
@@ -92,7 +90,7 @@ public class Berserker extends Personagem {
     }
 
     @Override
-    public void atacar() {
+    public void atacar(int Dano) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
